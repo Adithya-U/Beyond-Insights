@@ -1,0 +1,138 @@
+media:
+  input: public/images
+  output: /images
+  extensions: [png, jpg, jpeg, webp, svg]
+  rename: safe
+
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: content/site/homepage.json
+    format: json
+    fields:
+      - name: seoTitle
+        label: SEO title
+        type: string
+      - name: seoDescription
+        label: SEO description
+        type: text
+      - name: logo
+        label: Header logo
+        type: image
+      - name: heroEyebrow
+        label: Hero eyebrow
+        type: string
+      - name: heroTitle
+        label: Hero heading
+        type: string
+      - name: heroDescription
+        label: Hero description
+        type: text
+      - name: primaryCta
+        label: Primary button
+        type: string
+      - name: secondaryCta
+        label: Secondary link
+        type: string
+      - name: storyEyebrow
+        label: Transformation section eyebrow
+        type: string
+      - name: storyTitle
+        label: Transformation section heading
+        type: string
+      - name: storyDescription
+        label: Transformation section description
+        type: text
+      - name: storySteps
+        label: Transformation steps
+        type: object
+        list:
+          min: 3
+          max: 3
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: number
+            type: string
+          - name: title
+            type: string
+          - name: body
+            type: text
+      - name: servicesEyebrow
+        label: Services eyebrow
+        type: string
+      - name: servicesTitle
+        label: Services heading
+        type: string
+      - name: services
+        label: Services
+        type: object
+        list:
+          min: 3
+          max: 3
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: number
+            type: string
+          - name: title
+            type: string
+          - name: description
+            type: text
+      - name: approachEyebrow
+        label: Approach eyebrow
+        type: string
+      - name: approachTitle
+        label: Approach heading
+        type: string
+      - name: approachDescription
+        label: Approach description
+        type: text
+      - name: approachSteps
+        label: Approach steps
+        type: object
+        list:
+          min: 3
+          max: 3
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+          - name: title
+            type: string
+          - name: description
+            type: text
+      - name: aboutEyebrow
+        label: About eyebrow
+        type: string
+      - name: aboutTitle
+        label: About heading
+        type: string
+      - name: aboutDescription
+        label: About description
+        type: text
+      - name: footerDescription
+        label: Footer description
+        type: string
+      - name: contactEyebrow
+        label: Contact eyebrow
+        type: string
+      - name: contactTitle
+        label: Contact heading
+        type: string
+      - name: contactDescription
+        label: Contact description
+        type: text
+      - name: contactPrompts
+        label: Conversation starters
+        type: string
+        list:
+          min: 1
+          max: 3
+      - name: contactEmail
+        label: Contact email
+        type: string
+        description: Add the real company contact email before publishing. The homepage CTA uses this address.

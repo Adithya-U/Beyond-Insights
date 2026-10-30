@@ -1,0 +1,34 @@
+---
+import homepage from "../../content/site/homepage.json";
+---
+
+<header class="site-header" id="top">
+  <div class="site-header__inner">
+    <a class="brand" href="#top" aria-label="Beyond Insights home">
+      <img
+        class="brand__logo"
+        src={homepage.logo}
+        alt="Beyond Insights — Inspiring action"
+        width="1983"
+        height="793"
+      />
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#services">Services</a>
+      <a href="#approach">Our approach</a>
+      <a href="#about">About</a>
+      <a class="site-nav__cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+
+    <details class="mobile-nav">
+      <summary aria-label="Open navigation menu"><span></span><span></span></summary>
+      <nav aria-label="Mobile navigation">
+        <a href="#services">Services</a>
+        <a href="#approach">Our approach</a>
+        <a href="#about">About</a>
+        <a href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </details>
+  </div>
+</header>

@@ -1,0 +1,79 @@
+{
+  "seoTitle": "Beyond Insights — Data, Analytics & AI",
+  "seoDescription": "Beyond Insights brings data engineering, artificial intelligence, and business analytics together to support clearer decisions.",
+  "logo": "/images/beyond-insights-mark.png",
+  "heroEyebrow": "Data · Analytics · AI",
+  "heroTitle": "Turn data into informed action.",
+  "heroDescription": "We bring data, analytics, and AI into clearer focus—so teams can see what matters and decide what to do next.",
+  "primaryCta": "Start a conversation",
+  "secondaryCta": "Explore our services",
+  "storyEyebrow": "From fragmented to actionable",
+  "storyTitle": "A clearer path through your data.",
+  "storyDescription": "We connect the systems, shape the information, and bring the signals that matter into view.",
+  "storySteps": [
+    {
+      "number": "01",
+      "title": "Separate systems",
+      "body": "Important information starts in different places, formats, and systems. First, we find the signal."
+    },
+    {
+      "number": "02",
+      "title": "One connected foundation",
+      "body": "Reliable pipelines and shared models bring the pieces together in a form people can use."
+    },
+    {
+      "number": "03",
+      "title": "Insight you can act on",
+      "body": "Analytics and applied AI make patterns easier to see—and decisions easier to move forward."
+    }
+  ],
+  "servicesEyebrow": "What we do",
+  "servicesTitle": "Expertise, applied with intent.",
+  "services": [
+    {
+      "number": "01",
+      "title": "Data Engineering and Warehousing",
+      "description": "Build dependable data foundations and Databricks platforms that bring information together, improve reliability, and give analytics a solid base."
+    },
+    {
+      "number": "02",
+      "title": "Artificial Intelligence",
+      "description": "Create retrieval-grounded assistants and applied AI that help teams explore information and move from questions to useful next steps."
+    },
+    {
+      "number": "03",
+      "title": "Business Analytics",
+      "description": "Turn complex, disconnected information into clear, interactive analytics that help teams understand performance, uncover patterns, and make confident decisions."
+    }
+  ],
+  "approachEyebrow": "How we work",
+  "approachTitle": "Start with the decision.",
+  "approachDescription": "A thoughtful engagement begins with the business question—not a tool looking for a problem.",
+  "approachSteps": [
+    {
+      "title": "Frame the question",
+      "description": "Get clear on the decision, the people involved, and the information that can help."
+    },
+    {
+      "title": "Connect the evidence",
+      "description": "Bring the right data and technical foundations together around the problem."
+    },
+    {
+      "title": "Move to action",
+      "description": "Make the output useful in the workflows and decisions where it matters."
+    }
+  ],
+  "aboutEyebrow": "Our perspective",
+  "aboutTitle": "Insight should lead somewhere.",
+  "aboutDescription": "Across data engineering, analytics, and applied AI, we build practical systems that help teams understand performance, find opportunity, and act with confidence.",
+  "footerDescription": "Inspiring action through data, analytics, and AI.",
+  "contactEyebrow": "Start a conversation",
+  "contactTitle": "What could your data make clearer?",
+  "contactDescription": "Tell us about the decision you are working toward, or the information that is getting in the way.",
+  "contactPrompts": [
+    "Data you need to trust",
+    "Decisions you need to move",
+    "AI ideas you need to assess"
+  ],
+  "contactEmail": ""
+}
